@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Proman365</title>
+    <style>
+        :root {
+  /* Colors: */
+  --unnamed-color-ebebeb: #ebebeb;
+  --unnamed-color-00dbd0: #00dbd0;
+  --unnamed-color-ff6835: #ff6835;
+  --unnamed-color-263238: #263238;
+  --unnamed-color-6c63ff: #6c63ff;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+html {
+  background-color: white;
+}
+body {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #f5f7fa;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 45px;
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+  opacity: 1;
+  margin: 0;
+}
+h2 {
+  font-weight: 600;
+  font-size: 35px;
+  letter-spacing: 0.35px;
+  opacity: 1;
+  margin: 0;
+}
+p {
+  font-size: 20px;
+  letter-spacing: 0.35px;
+  opacity: 1;
+  margin: 0;
+}
+.body1 .dear {
+  font-size: 22px;
+  font-weight: 400;
+  letter-spacing: 0.22px;
+}
+.body1 button {
+  width: 305px;
+  height: 50px;
+  /* UI Properties */
+  background: var(--unnamed-color-00dbd0) 0% 0% no-repeat padding-box;
+  background: #00dbd0 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 20px;
+  font-weight: 400;
+  border: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+
+.body1 .sub-body {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.body1 .sub-body p {
+  font-size: 20px;
+  font-weight: 400;
+}
+.body1 .sub-body .main-img {
+  width: 550px;
+  width: 100%;
+}
+
+.body2 {
+  background-color: var(--unnamed-color-00dbd0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.body2 .left {
+  width: 50%;
+  /* border: 1px solid rosybrown; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+.body2 .left h2 {
+  font-size: 40px;
+  width: 70%;
+}
+.body2 .left p {
+  font-size: 18px;
+}
+.body2 .right{
+  width: 50%;
+  border: 1px solid yellow;
+}
+.body2 .right .right-img{
+    width: 300px;
+    width: 100%;
+}
+
+.body2 button {
+  color: var(--unnamed-color-00dbd0);
+  border: none;
+  opacity: 100%;
+  width: 194px;
+  height: 50px;
+  font-size: 20px;
+  /* UI Properties */
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+}
+section {
+  /* border: 1px solid; */
+  padding: 30px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.body3 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.body3 .subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.body3 .more-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.body4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.body4 .links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 100px;
+}
+.body4 .links a {
+  font-size: 22px;
+  color: #3a3aff;
+  opacity: 95%;
+}
+.body4 .social-links {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 428px) {
+    h1 {
+  font-weight: 600;
+  font-size: 23px;
+  letter-spacing: 0.45px;
+  text-transform: uppercase;
+  opacity: 1;
+  margin: 0;
+}
+h2 {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.35px;
+  opacity: 1;
+  margin: 0;
+}
+p {
+  font-size: 16px;
+  letter-spacing: 0.35px;
+  opacity: 1;
+  margin: 0;
+}
+.body1 button {
+  width: 205px;
+  height: 50px;
+  /* UI Properties */
+  background: var(--unnamed-color-00dbd0) 0% 0% no-repeat padding-box;
+  background: #00dbd0 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  opacity: 1;
+  text-align: center;
+  letter-spacing: 0px;
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+  .body2 .left h2 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .body2 {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+  .body2 .left {
+    width: 60%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 80px;
+  }
+  .body2 .right .right-img{
+    width: 100px;
+    width: 100%;
+}
+  .body4 .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="title">
+        <img
+          src="./images/Mask Group 736.svg"
+          alt=""
+          width="61px"
+          height="57px"
+        />
+        <h1>PROMAN365</h1>
+      </section>
+      <section class="body1">
+        <p class="dear">Dear ChaYan Dee,</p>
+        <div class="sub-body">
+          <h2>Welcome to Proman.</h2>
+          <p>
+            We are so excited to have you onboard. Now we can focus on towards
+            next steps to get you started.
+          </p>
+          <button>Check Out Your Option <img src="./images/right-arrow.svg" alt=""></button>
+          <img src="./images/Group 42917.png" alt="" class="main-img"/>
+          <p>
+            To complete your sign up consetetur sadipscing elitr, sed diam
+            nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+            erat sed diam voluptua. Vero eos et accusam et justo duo dolores et
+            ea rebum.
+          </p>
+          <p>
+            To get started, create a scrumboards or something you need to get
+            done.
+          </p>
+        </div>
+      </section>
+      <section class="body2">
+        <div class="left">
+          <h2>We're Help To Build Your Dream Project</h2>
+          <p>
+            PROMAP365 digital agency is a business you hire to outsource your
+            digital marketing efforts, instead of handling in-house.
+          </p>
+          <button>Get Started</button>
+        </div>
+        <div class="right">
+          <img src="./images/Group 42932.svg" alt="" class="right-img"/>
+        </div>
+      </section>
+      <section class="body3">
+        <div class="subscribe">
+          <img
+            src="./images/Mask Group 736.svg"
+            alt=""
+            width="61px"
+            height="57px"
+          />
+          <h2>Work in Proman365 your way</h2>
+          <div class="app-links">
+            <img src="./images/android.svg" alt="" />
+            <img src="./images/ios.svg" alt="" />
+          </div>
+        </div>
+        <div class="more-info">
+          <p>
+            You are receiving this message because ramitsolutions21@gmail.com or
+            your organization has been identified by us or our third-party
+            partners as someone who would be interested in receiving information
+            about Asana. If this is not the case, you can opt out of receiving
+            future emails by clicking unsubscribe. For more information about
+            how we process data, please see our Privacy Policy.
+          </p>
+          <p>Proman365 - 633 Folsom Street, San Francisco, CA 94107</p>
+        </div>
+      </section>
+      <section class="body4">
+        <div class="links">
+          <a href="#">Link</a>
+          <a href="#">Be a Partner</a>
+          <a href="#">Terms of Use</a>
+          <a href="#">Privacy Policy</a>
+        </div>
+        <div class="social-links">
+          <img src="./images/twitter.svg" alt="" />
+          <img src="./images/youtube.svg" alt="" />
+          <img src="./images/facebook.svg" alt="" />
+          <img src="./images/linkedin.svg" alt="" />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
